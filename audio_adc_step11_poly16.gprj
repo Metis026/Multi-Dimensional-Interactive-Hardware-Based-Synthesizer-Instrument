@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="rtl/top_adc_pcm_step9_tft_scope.v" type="file.verilog" enable="1"/>
+        <File path="rtl/analog_controls.v" type="file.verilog" enable="1"/>
+        <File path="rtl/mcp3208_reader.v" type="file.verilog" enable="1"/>
+        <File path="rtl/ili9341_scope.v" type="file.verilog" enable="1"/>
+        <File path="rtl/ttp229_reader.v" type="file.verilog" enable="1"/>
+        <File path="rtl/ttp229_note_events.v" type="file.verilog" enable="1"/>
+        <File path="rtl/midi_event_uart_reporter.v" type="file.verilog" enable="1"/>
+        <File path="rtl/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="rtl/performance_audio_backend.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio_volume.v" type="file.verilog" enable="1"/>
+        <File path="rtl/i2s_tx.v" type="file.verilog" enable="1"/>
+        <File path="rtl/adsr_envelope.v" type="file.verilog" enable="1"/>
+        <File path="rtl/voice_allocator.v" type="file.verilog" enable="1"/>
+        <File path="rtl/synth_voice.v" type="file.verilog" enable="1"/>
+        <File path="rtl/note_fcw.v" type="file.verilog" enable="1"/>
+        <File path="rtl/timbre_presets.v" type="file.verilog" enable="1"/>
+        <File path="rtl/sine_lut.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio_effects.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio_reverb.v" type="file.verilog" enable="1"/>
+        <File path="rtl/synth_engine.v" type="file.verilog" enable="1"/>
+        <File path="constraints/adc_pcm_step9_tft_scope.cst" type="file.cst" enable="1"/>
+        <File path="constraints/adc_pcm_step9_tft_scope.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
